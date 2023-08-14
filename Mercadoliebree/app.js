@@ -1,14 +1,14 @@
 const express = require('express')
  const app = express();
  const path = require('path');
- const port = process.env.port || 3030
+ const port = process.env.port || 3000
 app.use(express.static('public'));
 
 app.get('/',(req, res) =>{
     res.sendFile(path.join(__dirname,'./views/home.html'));
 });
  
- app.listen(3030,() =>{
+ app.listen(3000,() =>{
     console.log ('[server]: running on part 3000');
 });
 app.get("/register", (req, res)=>{
