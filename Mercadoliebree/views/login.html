@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/style/login.css">
+        <title>Iniciar Sesión</title>
+</head>
+<body>
+    <header>
+        <div>      
+              <div class="logo-buscador">
+          <div class="logito">
+              <img src="/images/logo-mercado-liebre.svg">
+          </div>
+              <div class="buscar">
+                 <input type="text" placeholder="Buscar" required />
+                 <i class="fas fa-search"></i>
+              </div>
+              <div class="cuota-credito">
+                  <h3><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</h3>
+              </div>
+         </div>     
+                <div class="ocultar">
+                   <ul class="primero">
+                      <li><a href="#">Ofertas</a></li>
+                      <li><a href="#">Tiendas oficiales</a></li>
+                      <li><a href="#">Vender</a></li>
+                      <li><a href="#">Ayuda</a></li>
+                   </ul>
+                 
+                   <ul class="segundo">
+                     <li class="op"><a href="/register" class="links-navbar">Creá tu cuenta <i class="fas fa-id-card" style="color: #000000;"></i></a></li>
+                     <li class="op"><a href="/login" class="links-navbar">Ingresá <i class="fas fa-sign-in-alt" style="color: #000000;"></i></a></li>
+                     <li class="op">Mis compras <i class="fas fa-shopping-basket" style="color: #000000;"></i></li>
+                   </ul>
+                 </div>
+                 <div class="burger-menu">
+                  <div class="ambu">
+                   <i class="fas fa-bars"></i> 
+                  </div>
+               </div>
+          </header>
+ <main>
+ <div class="login">
+    <h1 class="titulo">Iniciar Sesión</h1>
+    <form action="/login" method="post">
+    <div class="estruc">
+       <div class="nom">
+        <label for="nombre_usuario">Nombre de usuario:</label>
+        <input type="text" id="nombre_usuario" name="nombre_usuario" required><br><br>
+       </div>
+       <div class="contra">
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
+       </div>  
+    </div> 
+      <div class="boton">
+        <input type="submit" value="Iniciar Sesión">
+      </div>
+    </form>
+  </div>  
+ </main>
+ <footer>
+    <div class="footer-descripcion">
+       
+     <div class="item-footer">
+           <i class="fas fa-credit-card"></i>
+
+       <h3>Pagá con tarjeta o en efectivo</h3>
+       <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+           puntos de pago. ¡Y siempre es seguro!</p>
+     </div>     
+
+     <div class="item-footer">
+               <i class="fas fa-gift"></i>
+
+       <h3>Envío gratis desde $ 2.500</h3>
+       <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+           productos. Es un beneficio de Mercado Puntos.</p>
+     </div>
+     <div class="item-footer">
+               <i class="fas fa-user-shield"></i>
+
+       <h3>Seguridad, de principio a fin</h3>
+       <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+           porque estás siempre protegid@.</p>
+     </div>
+    </div>
+   </footer>
+     <div class="Copyright">
+       <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+     </div>
+     <div class="creador">
+      Echo por 🔱
+      <a href="https://www.instagram.com/josue_rmam/" class="me" target="_blank">josue_rmam</a>
+     </div>     
+</body>
+</html>

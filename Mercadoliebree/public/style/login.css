@@ -1,0 +1,183 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+    font-weight: 300;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: #eac926;
+    max-width: 100%;
+    max-height: 100%;
+}
+header {
+    padding: 0.5em 1.5em 0.8em 1.5em;
+}
+.login {
+    background-color: white;
+    max-width: 90%;
+    padding: 2em;
+    border-radius: 7px;
+    margin: 2.5em auto 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+main {
+    width: 90vw;
+    margin: 8%;
+    display: flex;
+    align-items: center;
+}
+.logo-buscador {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+    justify-content:space-around;
+}
+
+.logito {
+max-width: 15%;
+cursor: pointer;
+ width: 100%;
+
+}
+.ocultar {
+display: flex;
+justify-content: space-between;
+}
+.primero {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+.segundo {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    gap: 1.5em;
+    
+    }
+@media (min-width: 361px){
+    .logo-buscador {
+       gap: 0;
+   }
+   }
+@media (min-width: 361px){
+       .ocultar {
+           display: none;
+       }
+   }
+   @media (max-width: 361px){
+    .ocultar {
+        display: none;
+    }
+    }
+    @media (min-width: 480px) {
+        .logo-buscador {
+            gap: 0;
+        } 
+        }
+    
+        @media (min-width: 480px){
+    .ocultar {
+        display: none;
+    }
+        }
+        @media (max-width: 480px){
+         .footer-descripcion {
+             display: flex;
+             flex-direction:column;
+         }
+     } 
+        @media (max-width: 460px){
+    .logito {
+        width: 50%;
+        height: 60px;
+        max-width:none;
+    }
+        }
+ 
+        @media (min-width: 769px){
+         .logo-buscador {
+             justify-content: space-between;
+         }
+         }
+         
+         @media (min-width: 769px){
+         .logito {
+             max-width: 15%;
+         }
+         }
+         @media (min-width: 769px) {
+             .footer-descripcion {
+                 display: flex;
+                 flex-direction: row;
+             }
+         }
+         @media (min-width: 769px){
+             .ocultar {
+                 display: flex;
+                 justify-content: space-between;
+             }
+             }
+             @media (min-width: 769px){
+             .burger-menu {
+                 display: none;
+             }
+             }
+             .burger-menu-container {
+                display: flex;
+                justify-content: center;
+            }
+            .burger-menu {
+                background-color: #1259c3;
+                width: 45px;
+                border-radius: 5px;
+                padding: 8px;
+                margin: 0 auto;
+                text-align: center;
+                font-size: 24px;
+            }
+
+            footer {
+                margin-top: 17%;
+                background-color: white;
+                padding: 30px;
+            }
+            .footer-descripcion {
+                display: flex;
+                justify-content: space-between;
+                
+            }
+            .item-footer {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+            .footer-descripcion {
+                margin-bottom: 1.1em;
+            }
+            .Copyright{
+                display: flex;
+                justify-content: flex-start;
+                font-size: 14px
+            }
+            .creador {
+                position: fixed;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                text-align: center;
+                background-color: #f0f0f0;
+                padding: 10px;
+                border-top: 1px solid #ccc;
+                width: 100%;
+            }
