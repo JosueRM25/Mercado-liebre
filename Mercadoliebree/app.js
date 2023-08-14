@@ -9,7 +9,7 @@ app.get('/',(req, res) =>{
 });
  
  app.listen(3030,() =>{
-    console.log ('[server]: running on part 3030');
+    console.log ('[server]: running on part 3000');
 });
 app.get("/register", (req, res)=>{
     res.sendFile(path.resolve(__dirname, "./views/register.html"))
